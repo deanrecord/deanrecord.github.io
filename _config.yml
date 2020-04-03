@@ -1,1 +1,15 @@
-theme: jekyll-theme-architect
+# Site settings
+title: Dean Record
+description: Jekyll Theme Minimal Resume
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://deanrecord.dev" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Dean Record
+user_description: I\'m a Software Engineer, always searching for the next challenge. Lately I have been immersed in the <b>Alternatice Finance World</b> working for Goji Investments, a London based startup trying to create a platform for ...tbc
+user_title: Software Engineer
+email: contact@deanrecord.dev
+github_username:  deanrecord
+linkedin_username: dean_record
+
+exclude: ['package.json', 'src' , 'node_modules']
