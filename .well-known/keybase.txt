@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/deanrecord
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://deanrecord.dev
+  * I am deanrecord (https://keybase.io/deanrecord) on keybase.
+  * I have a public key ASCJWXABOpd39DpGQ_4-bx81s33ApS98qqOhMyf2Mq96ywo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b310c849fd87164b37ebcae61abcca39cba122940426ea8f67d1a9a849fc8dbe0a",
+      "host": "keybase.io",
+      "kid": "0120895970013a9777f43a4643fe3e6f1f35b37dc0a52f7caaa3a13327f632af7acb0a",
+      "uid": "07939abc8bd163d44922873a25861019",
+      "username": "deanrecord"
+    },
+    "merkle_root": {
+      "ctime": 1597397248,
+      "hash": "f2c94a03cff13cfad257cd5fae47f74d77c90b01f71c7654ab67b459a8aaf166dccf5c7b63bdee59333bea0171b600331f250dea507b91a97916a5674db0d097",
+      "hash_meta": "6416f5fbdc7fe957fe25754a91bb54d8fcf19ec8bf6766b57c5ab85fa35d7a33",
+      "seqno": 17277895
+    },
+    "service": {
+      "entropy": "lKWbzWCppwadtzME+CuAHR4u",
+      "hostname": "deanrecord.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1597397256,
+  "expire_in": 504576000,
+  "prev": "0c043288a3d09ec0ce21374892c5903fbdd0fc7aa64a1156037796c406c17261",
+  "seqno": 67,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgiVlwATqXd/Q6RkP+Pm8fNbN9wKUvfKqjoTMn9jKvessKp3BheWxvYWTESpcCQ8QgDAQyiKPQnsDOITdIksWQP73Q/HqmShFWA3eWxAbBcmHEIA307M1QvzPo4sbF8H238kzrFDtmpptrFwPx56/aaZdUAgHCo3NpZ8RA7y7mx0hyPm/sx6u57r4BfCmgxLbf5BrX3PrmpZFKVq/EPa5pwIDayH2XxwJ04OOzdfDLYJaz9es+eCco6AFdA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIkcrDA4DcqMj1cEAfuipP4GjSy0rU61odsCEGFpBqQpo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/deanrecord
+
+==================================================================
