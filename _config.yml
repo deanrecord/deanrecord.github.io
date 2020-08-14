@@ -13,3 +13,4 @@ github_username:  deanrecord
 linkedin_username: dean_record
 
 exclude: ['package.json', 'src' , 'node_modules']
+include: [".well-known"]
