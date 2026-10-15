@@ -441,6 +441,38 @@ a:focus-visible {
     }
 }
 
+/* High-DPI / Retina mobile devices (e.g. modern iPhone) — make main fill ~80% of viewport
+   and increase the dark mode toggle for easier tapping. This targets small viewports
+   with device pixel ratio >= 2. */
+@media (max-width: 600px) and (min-resolution: 2dppx),
+       (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Make the main card occupy ~80% of the viewport width on high-DPI phones */
+    main {
+        width: 80vw;
+        max-width: 80vw;
+        /* Keep padding comfortable while the card is narrower */
+        padding: 34px 18px 26px;
+    }
+
+    /* Bigger, easier-to-tap theme toggle */
+    .theme-toggle {
+        width: 64px;
+        height: 64px;
+        top: 12px;
+        right: 12px;
+    }
+
+    .theme-toggle svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* Slightly larger base text on high-DPI mobiles for readability */
+    body {
+        font-size: 20px;
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     main {
         animation: none;
@@ -668,6 +700,7 @@ a:focus-visible {
             </a></li>
         </ul>
     </section>
+    </main>
     <script> (function () {
         var btn = document.getElementById("theme-toggle");
         var root = document.documentElement;
