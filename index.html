@@ -185,6 +185,16 @@ a:hover {
     flex: none;
 }
 
+.links a[href^="mailto:"] svg,
+.links a[href^="mailto:"] svg rect,
+.links a[href^="mailto:"] svg path {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
 .links a:hover {
     transform: translateY(-2px);
     border-color: var(--accent);
