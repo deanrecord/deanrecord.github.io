@@ -277,16 +277,6 @@ a:hover {
     transition: border-color 150ms, color 150ms;
 }
 
-.theme-toggle:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-}
-
-.theme-toggle:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 3px;
-}
-
 .theme-toggle svg {
     width: 18px;
     height: 18px;
@@ -375,7 +365,7 @@ a:focus-visible {
         width: 100%;
         min-height: auto;
         padding: 36px 22px 28px;
-        border-radius: 8px;
+        border-radius: 0;
     }
 
     .badge {
@@ -392,7 +382,6 @@ a:focus-visible {
     }
 
     main p:not(.badge):not(.role), .current li {
-        text-align: justify;
         hyphens: auto;
         -webkit-hyphens: auto;
     }
@@ -509,8 +498,8 @@ a:focus-visible {
         resilient solutions.</p>
     <p> My current role at <a href="https://www.db.com">Deutsche Bank</a> is in Trade Finance where my teams build
         automated
-        systems that mitigate various forms of risk, consistently and at scale.</p>
-    <p>Before that, I built a platform and public APIs for alternative investments at Goji, led a small team at Starling
+        systems that mitigate various forms of risk.</p>
+    <p>Before that, I helped build a platform for alternative investments at Goji, led a small team at Starling
         to
         launch cash deposits and withdrawals through the Post Office, and led the team behind IG's trading APIs. A brief
         stint in SRE also shaped my focus on performance and reliability at scale.</p>
@@ -729,4 +718,3 @@ a:focus-visible {
         if (media.addEventListener) media.addEventListener("change", label);
         label();
     })(); </script>
-
